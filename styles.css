@@ -1,8 +1,8 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-image: url('logo_CURZA.png');
-    background-repeat: no-repeat;
-    background-position: center;
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
 }
 
 header {
@@ -12,18 +12,62 @@ header {
     padding: 20px;
     background-color: #3F51B5;
     color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+}
+
+header h1 {
+    margin: 0;
 }
 
 nav ul {
     list-style-type: none;
+    padding: 0;
 }
 
 nav ul li {
     display: inline;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
+}
+
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+}
+
+img {
+    display: block;
+    margin: 40px auto;
+    max-width: 100%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #3F51B5;
+}
+
+.navButton {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 10px;
+    cursor: pointer;
+}
+
+.flecha {
+    font-size: 25px;
+    font-weight: bolder;
 }
